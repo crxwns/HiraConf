@@ -26,7 +26,7 @@ ignore = ["D", "RET504", "TRY003", "EM102", "FA102"]
 
 [tool.ruff.extend-per-file-ignores]
 "tests/**.py" = ["S101"]
-"examples/**.py" = ["INP001"]
+"examples/**.py" = ["INP001", "T201"]
 
 [tool.pyright]
 typeCheckingMode = "strict"
